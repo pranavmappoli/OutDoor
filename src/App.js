@@ -1,9 +1,9 @@
+import Index from "./routes/Index";
+import "./app.css";
 function App() {
   return (
     <>
-      <div>
-        <h1>Pranav</h1>
-      </div>
+      <Index />
     </>
   );
 }

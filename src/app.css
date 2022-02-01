@@ -1,0 +1,28 @@
+:root {
+  --main-bg-color: #f7f7f7;
+  --main-font-size: 2vmin;
+  --main--font-weight: 400;
+  --main--font-family: "Lato", sans-serif;
+  --main--font-color: #777;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: var(--main-font-size);
+  font-weight: var(--main--font-weight);
+  line-height: 1.7;
+  font-family: var(--main--font-family);
+  color: var(--main--font-color);
+}
+
+.container {
+  background-color: var(--main-bg-color);
+  max-width: 120rem;
+}
