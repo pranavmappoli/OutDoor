@@ -1,0 +1,112 @@
+.about__container {
+  margin-top: -20vh !important;
+  padding-top: 18rem !important;
+  padding-bottom: 9rem !important;
+}
+.about__container--main {
+  margin-top: 6vmin;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10rem;
+}
+.about__para {
+  display: flex;
+  flex-direction: column;
+  gap: 3vmin;
+}
+.about__imges {
+  position: relative;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  height: 100%;
+}
+
+.about__img img {
+  display: block;
+  max-width: 50%;
+  box-shadow: 0 2rem 2rem 2rem rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+}
+
+.about__img img:hover {
+  transform: scale(1.1);
+  z-index: 99;
+  box-shadow: 0 2rem 4rem 4rem rgba(0, 0, 0, 0.2);
+  outline: 1.5rem solid var(--primary-color);
+  outline-offset: 2rem;
+}
+.about__imges:hover .about__img img:not(:hover) {
+  transform: scale(0.8);
+}
+
+.about__img--1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.about__img--2 {
+  position: absolute;
+  top: 7vmin;
+  left: 25vmin;
+}
+.about__img--3 {
+  position: absolute;
+  top: 15vmin;
+  left: 10%;
+}
+
+@media (max-width: 49em) {
+  .about__container--main {
+    gap: 3rem;
+  }
+  .about__img--1 {
+    position: absolute;
+    top: 10vmin;
+    left: 0;
+  }
+  .about__img--2 {
+    position: absolute;
+    top: 17vmin;
+    left: 20vmin;
+  }
+  .about__img--3 {
+    position: absolute;
+    top: 20vmin;
+    left: 10%;
+  }
+  .about__img img:hover {
+    outline: 1rem solid var(--primary-color);
+    outline-offset: 1rem;
+  }
+  .about__img img {
+    max-width: 60%;
+  }
+}
+@media (max-width: 38em) {
+  .about__img--1 {
+    position: absolute;
+    top: 20vmin;
+    left: 0;
+  }
+  .about__img--2 {
+    position: absolute;
+    top: 27vmin;
+    left: 15vmin;
+  }
+  .about__img--3 {
+    position: absolute;
+    top: 30vmin;
+    left: 10%;
+  }
+  .about__img img:hover {
+    outline: 0.5rem solid var(--primary-color);
+    outline-offset: 0.5rem;
+  }
+  .about__container--main {
+    gap: 0.5rem;
+  }
+  .about__img img {
+    max-width: 70%;
+  }
+}

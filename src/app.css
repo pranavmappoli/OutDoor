@@ -1,15 +1,22 @@
 :root {
   --main-bg-color: #f7f7f7;
-  --main-font-size: 2vmin;
+  --main-font-size: 2.5vmin;
   --main--font-weight: 400;
   --main--font-family: "Lato", sans-serif;
   --main--font-color: #777;
+  --primary-color: #55c57a;
+  --heading--gradient: linear-gradient(
+    to right,
+    rgba(126, 213, 111, 0.8),
+    rgba(40, 180, 133, 0.8)
+  );
 }
 
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  background-image: linear-gradient();
 }
 html {
   font-size: 62.5%;
@@ -25,4 +32,63 @@ body {
 .container {
   background-color: var(--main-bg-color);
   max-width: 120rem;
+  padding: 0 5vmin;
+  padding-top: 9rem;
+  margin: 0 auto;
+}
+h1 {
+  font-size: 10vmin;
+  font-weight: 400;
+  letter-spacing: 4.5vmin;
+  color: #fff;
+  text-align: center;
+}
+h2 {
+  font-size: 5vmin;
+  font-weight: 700;
+  letter-spacing: 1.75vmin;
+  color: var(--main--font-color);
+  text-transform: uppercase;
+  text-align: center;
+  background-image: var(--heading--gradient);
+  background-clip: text;
+  color: transparent;
+}
+
+h3 {
+  font-size: 3vmin;
+  font-weight: 700;
+  letter-spacing: 1.75vmin;
+  color: var(--main--font-color);
+}
+
+h4 {
+  font-size: 2.8vmin;
+  font-weight: 700;
+  letter-spacing: 0.3vmin;
+  color: var(--main--font-color);
+  text-transform: uppercase;
+}
+p {
+  font-size: var(--main-font-size);
+  color: var(--main--font-color);
+}
+.grid {
+  display: grid;
+}
+.grid__2col {
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+.grid__3col {
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+.grid__4col {
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+}
+
+.grid__center {
+  justify-content: center;
 }

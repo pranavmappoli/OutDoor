@@ -1,0 +1,25 @@
+.feature-box {
+  background-color: var(--main-bg-color);
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2vmin;
+  align-items: center;
+  border-radius: 5px;
+  box-shadow: 0 2rem 4rem 2rem rgba(0, 0, 0, 0.2);
+  transition: all 0.5s;
+}
+.feature-box:hover {
+  transform: translateY(-5%);
+}
+.featureBox__icon {
+  font-size: 10vmin;
+  color: var(--primary-color);
+}
+.featureBox__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1vmin;
+  text-align: center;
+}
