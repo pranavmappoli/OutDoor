@@ -5,6 +5,7 @@
   --main--font-family: "Lato", sans-serif;
   --main--font-color: #777;
   --primary-color: #55c57a;
+  --box--shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
   --heading--gradient: linear-gradient(
     to right,
     rgba(126, 213, 111, 0.8),
@@ -16,7 +17,6 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  background-image: linear-gradient();
 }
 html {
   font-size: 62.5%;

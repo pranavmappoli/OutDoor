@@ -1,0 +1,8 @@
+.tours__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 4rem;
+}
+.tours__grid {
+  padding-bottom: 90rem;
+}
