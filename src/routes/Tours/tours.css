@@ -1,8 +1,36 @@
+.tours__container {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 9rem;
+}
 .tours__grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 4rem;
 }
 .tours__grid {
-  padding-bottom: 90rem;
+  padding-bottom: 4rem;
+}
+@media (max-width: 50em) {
+  .tours__grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .tours__grid-last-child {
+    grid-column: 1/-1;
+    justify-self: center;
+    max-width: 70%;
+    min-width: 50%;
+  }
+}
+@media (max-width: 31em) {
+  .tours__grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .tours__grid-last-child {
+    max-width: 100%;
+    min-width: 100%;
+  }
+}
+.tours__button {
+  align-self: center;
 }

@@ -1,0 +1,47 @@
+.stories {
+  background-color: var(--main-bg-color);
+  max-width: 120rem;
+  padding: 0 5vmin;
+  padding-top: 9rem;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+}
+
+.stories__main-cont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 9rem;
+  padding-top: 15rem;
+  padding-bottom: 9rem;
+}
+
+.stories__container {
+  display: flex;
+  flex-direction: column;
+  gap: 9rem;
+  max-width: 70%;
+}
+.stories__container--video {
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+.stories__container--video video {
+  height: 100%;
+  object-fit: cover;
+  opacity: 20%;
+}
+
+@media (max-width: 38em) {
+  .stories__container {
+    max-width: 100%;
+    gap: 4.5rem;
+  }
+  .stories__main-cont {
+    gap: 4.5rem;
+    padding-top: 9rem;
+    padding-bottom: 4.5rem;
+  }
+}

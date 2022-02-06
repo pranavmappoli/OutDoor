@@ -35,7 +35,7 @@
 .btn:active {
   transform: translateY(-2px);
 }
-.btn__animation .btn::after {
+.btn::after {
   content: "";
   display: inline-block;
   width: 100%;
@@ -48,7 +48,7 @@
   z-index: -1;
   transition: all 0.3s;
 }
-.btn__animation .btn:hover::after {
+.btn:hover::after {
   transform: scaleX(1.5) scaleY(1.2);
   opacity: 0;
 }
