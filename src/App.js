@@ -1,9 +1,9 @@
-import Index from "./routes/Index";
+import RoutesIndex from "./routes/RoutesIndex";
 import "./app.css";
 function App() {
   return (
     <>
-      <Index />
+      <RoutesIndex />
     </>
   );
 }
