@@ -24,8 +24,8 @@ function MainButton(props) {
 
 MainButton.defaultProps = {
   btn__animation: false,
-  btn__bgcolor: "var(--primary-color)",
-  btn__color: "#fff",
+  btn__bgcolor: "",
+  btn__color: "",
   btn__name: "button name",
 };
 

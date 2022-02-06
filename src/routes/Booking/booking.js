@@ -13,7 +13,11 @@ function booking() {
             <div className="booking__bookingForm">
               <BookingForm />
               <div className="bookingForm__btn">
-                <MainButton btn__name="next steps →" />
+                <MainButton
+                  btn__name="next steps →"
+                  btn__bgcolor="var(--primary-color)"
+                  btn__color="#fff"
+                />
               </div>
             </div>
           </div>
