@@ -92,6 +92,10 @@
   display: none;
 }
 @media (max-width: 38em) {
+  .booking__label--component input:focus + label {
+    transform: translateY(4rem);
+    opacity: 1;
+  }
   .booking__label--component input {
     font-size: 1rem;
     padding: 1rem 1rem;
