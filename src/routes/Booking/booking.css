@@ -1,0 +1,57 @@
+.booking__container {
+  background-color: var(--primary-color) !important;
+  padding-bottom: 9rem !important;
+  border: 1px solid #fff;
+  margin: 0 auto;
+}
+.booking__content h2 {
+  padding-bottom: 4.5rem;
+}
+.booking__img--container {
+  background-image: linear-gradient(
+      105deg,
+      rgba(255, 255, 255, 0.9) 0%,
+      rgba(255, 255, 255, 0.9) 60%,
+      transparent 60%
+    ),
+    url("../../assets/img/nat-10.jpg");
+  background-position: top;
+  background-size: cover;
+}
+.booking__content {
+  padding: 2rem 0 0 2rem;
+  display: flex;
+  flex-direction: column;
+  max-width: 60%;
+  gap: 2rem;
+}
+.bookingForm__btn {
+  display: flex;
+  justify-content: center;
+}
+.booking__bookingForm {
+  padding: 0 4rem 4rem 4rem;
+  max-width: 80%;
+}
+@media (max-width: 50em) {
+  .booking__bookingForm {
+    max-width: 100%;
+  }
+}
+@media (max-width: 38em) {
+  .booking__img--container {
+    background-image: linear-gradient(
+        120deg,
+        rgba(255, 255, 255, 0.9) 0%,
+        rgba(255, 255, 255, 0.9) 80%,
+        transparent 80%
+      ),
+      url("../../assets/img/nat-10.jpg");
+  }
+  .booking__content {
+    max-width: 90%;
+  }
+  .booking__content {
+    padding: 0.5rem 0 0 0.5rem;
+  }
+}

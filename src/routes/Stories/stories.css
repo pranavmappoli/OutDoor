@@ -29,6 +29,7 @@
   right: 0;
 }
 .stories__container--video video {
+  display: block;
   height: 100%;
   object-fit: cover;
   opacity: 20%;

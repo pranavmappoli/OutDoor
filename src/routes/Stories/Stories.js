@@ -5,7 +5,6 @@ import marrysmithimg from "../../assets/img/nat-8.jpg";
 import pranavmimg from "../../assets/img/nat-9.jpg";
 import vdomp4 from "../../assets/video/video.mp4";
 import vdowebm from "../../assets/video/video.webm";
-
 function Stories() {
   return (
     <section>

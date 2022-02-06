@@ -3,6 +3,7 @@ import "./about.css";
 import img1 from "../../assets/img/nat-1-large.jpg";
 import img2 from "../../assets/img/nat-2-large.jpg";
 import img3 from "../../assets/img/nat-3-large.jpg";
+import SecondButton from "../../components/buttons/SecondButton";
 
 function About() {
   return (
@@ -26,6 +27,7 @@ function About() {
               maiores consequatur placeat eligendi nam commodi deleniti quia
               neque id! Natus ratione.
             </p>
+            <SecondButton btn__name="Learn more →" />
           </div>
           <div className="about__imges">
             <div className="about__img">

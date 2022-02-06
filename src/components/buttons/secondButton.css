@@ -1,0 +1,17 @@
+.scnd__btn:link,
+.scnd__btn:visited {
+  text-decoration: none;
+  border: none;
+  border-bottom: 1px solid var(--primary-color);
+  font-size: 1.5rem;
+  text-transform: capitalize;
+  transition: all 0.4s;
+}
+.scnd__btn:hover,
+.scnd__btn:active {
+  border-radius: 2px;
+  border: none;
+  padding: 0.5rem 1rem;
+  background-color: var(--primary-color);
+  color: #fff !important;
+}

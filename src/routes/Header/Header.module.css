@@ -63,3 +63,8 @@ header {
   padding: 1rem;
   text-align: center;
 }
+@media (max-width: 37em) {
+  .head__main_cont {
+    padding-top: 4rem;
+  }
+}

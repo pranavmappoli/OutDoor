@@ -3,6 +3,9 @@
   padding-top: 18rem !important;
   padding-bottom: 9rem !important;
 }
+.about__heading {
+  padding-bottom: 9rem;
+}
 .about__container--main {
   margin-top: 6vmin;
   display: grid;
@@ -84,6 +87,9 @@
   }
 }
 @media (max-width: 38em) {
+  .about__heading {
+    padding-bottom: 4.5rem;
+  }
   .about__img--1 {
     position: absolute;
     top: 20vmin;
