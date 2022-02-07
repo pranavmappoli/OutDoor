@@ -9,7 +9,7 @@ function MainButton(props) {
       }`}
     >
       <a
-        href="#"
+        href={props.btn__href}
         className={styles.btn}
         style={{
           backgroundColor: `${props.btn__bgcolor}`,
@@ -27,6 +27,7 @@ MainButton.defaultProps = {
   btn__bgcolor: "",
   btn__color: "",
   btn__name: "button name",
+  btn__href: "#",
 };
 
 export default MainButton;

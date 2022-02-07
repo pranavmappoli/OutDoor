@@ -12,6 +12,7 @@ function Tours() {
       <div className="container tours__container">
         <div className="tours__grid">
           <TourBox
+            tour__btn__href="#popup"
             tour__color="blue"
             tour__img={seaimg}
             tour__heading="the sea explorar"
@@ -25,6 +26,7 @@ function Tours() {
             ]}
           />
           <TourBox
+            tour__btn__href="#popup"
             tour__color="green"
             tour__img={forestimg}
             tour__heading="the forest hiker"
@@ -39,6 +41,7 @@ function Tours() {
           />
           <div className="tours__grid-last-child">
             <TourBox
+              tour__btn__href="#popup"
               tour__color="red"
               tour__img={snowimg}
               tour__heading="the snow adventure"

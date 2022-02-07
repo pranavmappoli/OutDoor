@@ -52,7 +52,10 @@ function TourBox(props) {
             {props.tour__price}
           </div>
           <div className="tour__content--button">
-            <MainButton btn__name="book now" />
+            <MainButton
+              btn__name="book now"
+              btn__href={props.tour__btn__href}
+            />
           </div>
         </div>
       </div>
