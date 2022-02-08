@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/OutDoor/static/css/main.2f353281.css",
-    "main.js": "/OutDoor/static/js/main.1ddce1aa.js",
+    "main.css": "/OutDoor/static/css/main.7d3589c8.css",
+    "main.js": "/OutDoor/static/js/main.d9afc601.js",
     "static/js/787.c0fe5e10.chunk.js": "/OutDoor/static/js/787.c0fe5e10.chunk.js",
     "static/media/video.mp4": "/OutDoor/static/media/video.697d9c042a4dec8716f2.mp4",
     "static/media/video.webm": "/OutDoor/static/media/video.defbf1bb518f0f6e94cf.webm",
@@ -19,12 +19,12 @@
     "static/media/favicon.png": "/OutDoor/static/media/favicon.478e4b19a79eb5f3671f.png",
     "static/media/logo-white.png": "/OutDoor/static/media/logo-white.6c89a3f013a3d7593e24.png",
     "index.html": "/OutDoor/index.html",
-    "main.2f353281.css.map": "/OutDoor/static/css/main.2f353281.css.map",
-    "main.1ddce1aa.js.map": "/OutDoor/static/js/main.1ddce1aa.js.map",
+    "main.7d3589c8.css.map": "/OutDoor/static/css/main.7d3589c8.css.map",
+    "main.d9afc601.js.map": "/OutDoor/static/js/main.d9afc601.js.map",
     "787.c0fe5e10.chunk.js.map": "/OutDoor/static/js/787.c0fe5e10.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2f353281.css",
-    "static/js/main.1ddce1aa.js"
+    "static/css/main.7d3589c8.css",
+    "static/js/main.d9afc601.js"
   ]
 }
