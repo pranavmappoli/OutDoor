@@ -6,7 +6,7 @@ import MainButton from "../../components/buttons/MainButton";
 function header() {
   return (
     <>
-      <header className={styles.header}>
+      <header className={styles.header} id="home">
         <div className={styles.header_container}>
           <nav className={styles.navigation}>
             <div className={styles.logo}>

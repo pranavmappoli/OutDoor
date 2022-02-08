@@ -5,7 +5,7 @@ import MainButton from "../../components/buttons/MainButton";
 
 function booking() {
   return (
-    <section>
+    <section id="booking">
       <div className="container booking__container">
         <div className="booking__img--container">
           <div className="booking__content">

@@ -8,7 +8,7 @@ import MainButton from "../../components/buttons/MainButton";
 
 function Tours() {
   return (
-    <section>
+    <section id="tours">
       <div className="container tours__container">
         <div className="tours__grid">
           <TourBox

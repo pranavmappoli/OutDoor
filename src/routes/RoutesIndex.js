@@ -7,13 +7,14 @@ import Stories from "./Stories/Stories";
 import Booking from "./Booking/booking";
 import Footer from "./Footer/Footer";
 import PopupBox from "../components/popup-box/PopupBox";
+import Navigation from "../components/navigation/Navigation";
 
 function index() {
   return (
     <>
+      <Navigation />
       <Header />
       <About />
-
       <Features />
       <PopupBox />
       <Tours />

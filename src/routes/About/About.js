@@ -7,7 +7,7 @@ import SecondButton from "../../components/buttons/SecondButton";
 
 function About() {
   return (
-    <section className="about">
+    <section className="about" id="about">
       <div className="container about__container">
         <h2 className="about__heading">
           EXCITING TOURS FOR ADVENTUROUS PEOPLE

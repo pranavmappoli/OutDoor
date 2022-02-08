@@ -4,7 +4,7 @@ import footerLogo from "../../assets/img/favicon.png";
 
 function Footer() {
   return (
-    <div className="  footer__container">
+    <div className="  footer__container " id="footer">
       <div className="footer__grid">
         <div className="footer__menu">
           <div className="footer__menu--container">

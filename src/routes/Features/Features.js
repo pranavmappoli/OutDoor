@@ -8,7 +8,7 @@ import { IoHeartOutline } from "react-icons/io5";
 
 function Features() {
   return (
-    <section>
+    <section id="features">
       <div className="container features__container">
         <div className="features__grid">
           <FeatureBox

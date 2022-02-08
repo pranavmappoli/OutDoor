@@ -7,7 +7,7 @@ import vdomp4 from "../../assets/video/video.mp4";
 import vdowebm from "../../assets/video/video.webm";
 function Stories() {
   return (
-    <section>
+    <section id="stories">
       <div className="stories">
         <div className="stories__container--video">
           <video className="container--video" autoPlay muted loop>

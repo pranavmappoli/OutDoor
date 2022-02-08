@@ -1,0 +1,113 @@
+.navigation__container input {
+  display: none;
+}
+
+.nav__btn {
+  position: fixed;
+  height: 4rem;
+  width: 4rem;
+  background-color: #fff;
+  top: 3.5rem;
+  right: 3.5rem;
+  z-index: 99999;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.radio__background {
+  top: 4rem;
+  right: 4rem;
+  position: fixed;
+  background-image: radial-gradient(
+    rgba(126, 213, 111, 0.98),
+    rgba(40, 180, 133, 0.98)
+  );
+  height: 3rem;
+  width: 3rem;
+  border-radius: 50%;
+  z-index: 999;
+  transition: all 0.8s;
+}
+.checkbox:checked ~ .radio__background {
+  transform: scale(180);
+}
+
+.navigation {
+  position: fixed;
+  left: -50%;
+  top: 50%;
+  z-index: 9999;
+  transform: translate(-50%, -50%);
+  visibility: hidden;
+  pointer-events: none;
+  transition: all 0.3s ease-out;
+}
+.navigation__list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  width: 100vw;
+  align-items: center;
+}
+.navigation__item {
+  cursor: pointer;
+  text-decoration: none;
+  color: var(--main-bg-color);
+  font-size: 4vmin;
+  font-weight: 300;
+  text-transform: uppercase;
+  padding: 1rem 2rem;
+  background-image: linear-gradient(
+    110deg,
+    transparent 0%,
+    transparent 50%,
+    rgba(255, 255, 255, 0.9) 50%,
+    rgba(255, 255, 255, 0.9) 100%
+  );
+  background-size: 300%;
+  transition: all 0.7s;
+}
+.navigation__item:hover {
+  background-position: 100%;
+  color: var(--main--font-color);
+}
+
+.checkbox:checked ~ .navigation {
+  left: 50%;
+  visibility: visible;
+  pointer-events: all;
+}
+
+.nav__btn--style {
+  position: fixed;
+  top: 5.5rem;
+  right: 3rem;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  z-index: 999999;
+  transition: all 0.3s;
+}
+.nav__btn:hover .nav__btn--style {
+  gap: 0.3rem;
+}
+.nav__btn--style div {
+  display: inline-block;
+  height: 2px;
+  width: 2.5rem;
+  background-color: var(--main--font-color);
+}
+
+.checkbox:checked ~ .nav__btn .nav__btn--style1 {
+  position: fixed;
+  transform: rotate(135deg);
+  transition: all 0.3s;
+}
+.checkbox:checked ~ .nav__btn .nav__btn--style2 {
+  position: fixed;
+  transform: rotate(-135deg);
+}
+.checkbox:checked ~ .nav__btn .nav__btn--style3 {
+  visibility: hidden;
+}
