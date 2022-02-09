@@ -33,7 +33,7 @@ header {
       rgba(126, 213, 111, 0.8),
       rgba(40, 180, 133, 0.8)
     ),
-    url("../../assets/img/hero.jpg");
+    url("../../assets/img/hero-small.jpg");
   background-size: cover;
   background-position: top;
   clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%);
@@ -66,5 +66,16 @@ header {
 @media (max-width: 37em) {
   .head__main_cont {
     padding-top: 4rem;
+  }
+}
+
+@media ((min-resolution: 192dpi) and (min-width:600px)), (min-width: 2000px) {
+  header {
+    background-image: linear-gradient(
+        to right bottom,
+        rgba(126, 213, 111, 0.8),
+        rgba(40, 180, 133, 0.8)
+      ),
+      url("../../assets/img/hero.jpg");
   }
 }

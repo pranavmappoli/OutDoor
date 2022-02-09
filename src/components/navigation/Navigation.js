@@ -11,6 +11,7 @@ function Navigation() {
         type="checkbox"
         id="checkbox"
         checked={checked}
+        onChange={(e) => {}}
       />
       <label
         className="nav__btn"

@@ -1,6 +1,9 @@
 import React from "react";
 import "./footer.css";
-import footerLogo from "../../assets/img/favicon.png";
+import footerLogoL1x from "../../assets/img/logo-green-1x.png";
+import footerLogoL2x from "../../assets/img/logo-green-2x.png";
+import footerLogoS1x from "../../assets/img/logo-green-small-1x.png";
+import footerLogoS2x from "../../assets/img/logo-green-small-2x.png";
 
 function Footer() {
   return (
@@ -27,9 +30,15 @@ function Footer() {
             </ul>
           </div>
         </div>
-        <div className="footer__logo">
-          <img src={footerLogo} alt="footerlogo" />
-        </div>
+        <picture className="footer__logo">
+          <source
+            srcSet={`${footerLogoL1x} 1x,${footerLogoL2x} 2x`}
+            alt="footerlogo"
+            media="(min-width:600px)"
+          />
+
+          <img srcSet={`${footerLogoS1x} 1x,${footerLogoS2x}`} />
+        </picture>
         <div className="footer__description">
           <span>
             Built by Pranav mappoli as part of online course taken by Jonas

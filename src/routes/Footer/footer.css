@@ -44,6 +44,7 @@ li:active {
   align-self: start;
   display: flex;
   justify-content: center;
+  padding-top: 2rem;
 }
 .footer__logo img {
   max-width: 100%;
@@ -69,6 +70,7 @@ li:active {
   .footer__grid {
     max-height: 100%;
   }
+
   .footer__logo img {
     max-width: 70%;
   }
