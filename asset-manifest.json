@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/OutDoor/static/css/main.7d3589c8.css",
-    "main.js": "/OutDoor/static/js/main.d9afc601.js",
+    "main.css": "/OutDoor/static/css/main.2d68b9c2.css",
+    "main.js": "/OutDoor/static/js/main.3ea90829.js",
     "static/js/787.c0fe5e10.chunk.js": "/OutDoor/static/js/787.c0fe5e10.chunk.js",
     "static/media/video.mp4": "/OutDoor/static/media/video.697d9c042a4dec8716f2.mp4",
     "static/media/video.webm": "/OutDoor/static/media/video.defbf1bb518f0f6e94cf.webm",
@@ -14,17 +14,20 @@
     "static/media/nat-4.jpg": "/OutDoor/static/media/nat-4.114dc94031b51b2988c7.jpg",
     "static/media/nat-8.jpg": "/OutDoor/static/media/nat-8.106780313042f8b1c0ff.jpg",
     "static/media/nat-1-large.jpg": "/OutDoor/static/media/nat-1-large.a1c1cbdbbfcad1e41a64.jpg",
+    "static/media/hero-small.jpg": "/OutDoor/static/media/hero-small.6d6114deeff18ec76471.jpg",
     "static/media/nat-3-large.jpg": "/OutDoor/static/media/nat-3-large.da53b7a00e30c54d543a.jpg",
     "static/media/nat-2-large.jpg": "/OutDoor/static/media/nat-2-large.cbc0cd9f8636cfe88fe7.jpg",
-    "static/media/favicon.png": "/OutDoor/static/media/favicon.478e4b19a79eb5f3671f.png",
+    "static/media/logo-green-2x.png": "/OutDoor/static/media/logo-green-2x.76177450fa1c1b472bcc.png",
+    "static/media/logo-green-1x.png": "/OutDoor/static/media/logo-green-1x.cf3c47eef01106bf19bf.png",
+    "static/media/logo-green-small-2x.png": "/OutDoor/static/media/logo-green-small-2x.de221e6e59f7f455c7bf.png",
     "static/media/logo-white.png": "/OutDoor/static/media/logo-white.6c89a3f013a3d7593e24.png",
     "index.html": "/OutDoor/index.html",
-    "main.7d3589c8.css.map": "/OutDoor/static/css/main.7d3589c8.css.map",
-    "main.d9afc601.js.map": "/OutDoor/static/js/main.d9afc601.js.map",
+    "main.2d68b9c2.css.map": "/OutDoor/static/css/main.2d68b9c2.css.map",
+    "main.3ea90829.js.map": "/OutDoor/static/js/main.3ea90829.js.map",
     "787.c0fe5e10.chunk.js.map": "/OutDoor/static/js/787.c0fe5e10.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7d3589c8.css",
-    "static/js/main.d9afc601.js"
+    "static/css/main.2d68b9c2.css",
+    "static/js/main.3ea90829.js"
   ]
 }
