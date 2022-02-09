@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./MainButton.module.css";
+import { Link } from "react-scroll";
 
 function MainButton(props) {
   return (
@@ -8,8 +9,11 @@ function MainButton(props) {
         props.btn__animation && styles.btn__animation
       }`}
     >
-      <a
-        href={props.btn__href}
+      <Link
+        to={props.btn__href}
+        smooth={true}
+        offset={50}
+        duration={500}
         className={styles.btn}
         style={{
           backgroundColor: `${props.btn__bgcolor}`,
@@ -17,7 +21,7 @@ function MainButton(props) {
         }}
       >
         {props.btn__name}
-      </a>
+      </Link>
     </div>
   );
 }

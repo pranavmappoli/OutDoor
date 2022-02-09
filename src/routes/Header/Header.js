@@ -18,7 +18,11 @@ function header() {
         <div className={styles.head__main_cont}>
           <h1 className={styles.left__anim}>OUTDOORS</h1>
           <h3 className={styles.right__anim}>IS WHERE LIFE HAPPENS</h3>
-          <MainButton btn__name="Discover our Tours" btn__animation={true} />
+          <MainButton
+            btn__name="Discover our Tours"
+            btn__animation={true}
+            btn__href="tours"
+          />
         </div>
       </header>
     </>

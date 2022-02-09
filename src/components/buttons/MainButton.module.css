@@ -8,8 +8,7 @@
   }
 }
 
-.btn:link,
-.btn:visited {
+.btn {
   display: inline-block;
   background-color: #fff;
   padding: 1rem 2.5rem;
@@ -24,8 +23,7 @@
   position: relative;
   font-size: 2.5vmin;
 }
-.btn__animation .btn:link,
-.btn__animation .btn:visited {
+.btn__animation .btn {
   animation: bottom-up 1s ease-out 1s;
   animation-fill-mode: backwards;
 }
