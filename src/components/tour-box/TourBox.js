@@ -55,6 +55,7 @@ function TourBox(props) {
             <MainButton
               btn__name="book now"
               btn__href={props.tour__btn__href}
+              btn__scroll={false}
             />
           </div>
         </div>
