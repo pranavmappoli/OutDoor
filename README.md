@@ -3,19 +3,14 @@
 ##Some key implementations :
 
 
-#Video as backround
+Video as backround
 
+Fluid Layout
 
-#Fluid Layout
+Responsive design
 
+Responsive images( using density switching & Art direction)
 
-#Responsive design
+Pop up without JS (using css -anchor target)
 
-
-#Responsive images( using density switching & Art direction)
-
-
-#Pop up without JS (using css -anchor target)
-
-
-#Navigation only using css (check-box hack)
+Navigation only using css (check-box hack)
